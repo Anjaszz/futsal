@@ -212,7 +212,7 @@ class Auth extends CI_Controller
 
 			// set any errors and display the form
 			$this->data['message'] = (validation_errors()) ? validation_errors() : $this->session->flashdata('message');
-			$this->_render_page('back/auth/forgot_password', $this->data);
+			$this->_render_page('back/forgot_password', $this->data);
 		} else {
 			$identity_column = $this->config->item('identity', 'ion_auth');
 			$identity = $this->ion_auth->where($identity_column, $this->input->post('identity'))->users()->row();

@@ -56,10 +56,10 @@
         </ul>
       <?php }else{ ?>
         <ul class="nav navbar-nav navbar-right">
-    <li style="margin: 10px 15px 0 0;">
+    <li style="margin: 7px;">
         <button class="btn btn-info" onclick="window.location.href='<?php echo base_url('auth/register') ?>'">Register</button>
     </li>
-    <li style="margin: 10px 15px 0 0;">
+    <li style="margin:7px;">
         <button class="btn btn-success" onclick="window.location.href='<?php echo base_url('auth/login') ?>'">Login</button>
     </li>
 </ul>

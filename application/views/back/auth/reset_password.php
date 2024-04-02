@@ -1,11 +1,12 @@
+
 <!doctype html>
 <html lang="en">
 <head>
-  <title>Reset Password | <?php echo $company_data->company_name;?></title>
+  <title>Reset Password | Futsal</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- core ui -->
-	<link href="<?php echo base_url()?>assets/template/frontend/css/theme/simplex.css" rel="stylesheet" type="text/css" />
+	<link href="<?php echo base_url()?>assets/template/frontend/css/simplex.bootstrap.min.css" rel="stylesheet" type="text/css" />
   <!-- FontAwesome 4.3.0 -->
   <link href="<?php echo base_url()?>assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
   <!-- Favicon -->
